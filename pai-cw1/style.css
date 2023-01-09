@@ -59,7 +59,7 @@ main {
   float: left;
 }
 
-footer {
+.main-footer {
   clear: both;
   background-color: black;
   color: white;
@@ -67,25 +67,24 @@ footer {
   padding: 20px;
 }
 
-.article-content {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 20px;
-}
-
-article button {
-  float: right;
-}
-
-.article-text {
-  padding-right: 10px;
-}
-
 article {
   margin: 2rem;
   padding: 2rem;
   width: 480px;
   background-color: bisque;
+}
+
+article main {
+  display: flex;
+  flex-direction: row;
+}
+
+article main p {
+  width: 200px;
+}
+
+article button {
+  float: right;
 }
 
 .article-row {
