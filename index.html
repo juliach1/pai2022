@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+<body>
+
+	<nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="star.png" alt="Avatar Logo">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<main class="collapse navbar-collapse" id="collapsibleNavbar">
+
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pozycja 1</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pozycja 2</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pozycja 3</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pozycja
+							4</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Pozycja 4.1</a></li>
+							<li><a class="dropdown-item" href="#">Pozycja 4.2</a></li>
+							<li><a class="dropdown-item" href="#">Pozycja 4.3</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</main>
+		</div>
+
+	</nav>
+
+
+	<main class="container bg-light">
+
+		<section class="central-section row row-cols-1 row-cols-md-2 pt-4 pb-4 justify-content-center">
+
+
+			<form class="form col col-sm-6 col-md-4 col-lg-3 d-flex flex-column pe-md-4">
+
+				<div class="pt-3">
+					<label for="firstname" class="form-label">Imię:</label><br>
+					<input type="text" class="form-control" id="firstname" placeholder="Podaj imię" name="firstname">
+				</div>
+
+				<div class="pt-3">
+					<label for="lastname" class="form-label">Nazwisko:</label><br>
+					<input type="text" class="form-control" id="lastname" placeholder="Podaj nazwisko" name="lastname">
+				</div>
+				<div class="pt-3">
+					<label for="email" class="form-label">E-mail:</label><br>
+					<input type="email" class="form-control" id="email" placeholder="Podaj adres e-mail" name="email">
+				</div>
+
+				<label class="form-check-label pt-3">
+					<input class="form-check-input" type="checkbox" name="subscribe"> Zasubskrybuj
+				</label>
+
+				<button type="submit" class="btn btn-primary mt-5"> Zapisz mnie</button>
+
+			</form>
+
+
+			<section class="articles pt-4 col-sm-6 col-md-8 col-lg-9 row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt=" Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt="Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt="Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt="Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt="Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+				<div class="col pt-3">
+					<article class="card">
+						<img class="card-img-top" src="article-placeholder.png" alt="Article photo">
+						<main class="card-body">
+							<h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							<a href="#" class="btn btn-secondary">See Article</a>
+						</main>
+					</article>
+				</div>
+
+
+			</section>
+
+
+		</section>
+
+	</main>
+
+
+
+	<footer class="mt-4 p-3 bg-dark text-white text-center">
+		<p>Lorem ipsum dolor sit amet. &copy; Wszelkie prawa zastrzeżone</p>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
